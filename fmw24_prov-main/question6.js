@@ -14,7 +14,7 @@ async function getPhotos() {
     const imageContainer = document.createElement("div");
     const imgEl = document.createElement("img");
 
-    imgEl.src = image.thumbnailUrl;
+    imgEl.src = image.url;
     imgEl.alt = image.title;
 
     imgEl.addEventListener("click", () => {
