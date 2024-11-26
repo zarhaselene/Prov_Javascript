@@ -12,9 +12,14 @@ const book = {
 
 function getBookInfo(book) {
   // Din kod här
+  return ({ title: Titel, author: Författare } = book);
 }
+console.log(Författare);
+console.log(Titel);
 
-// console.log(getBookInfo(book));
+console.log(getBookInfo(book));
+
 // Output: "Titel: To Kill a Mockingbird, Författare: Harper Lee"
 
 module.exports = getBookInfo;
+//
