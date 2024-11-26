@@ -14,7 +14,7 @@
 function getHour(time) {
   return parseInt(time.split(":")[0]);
 }
-console.log(getHour("17:45"));
+// console.log(getHour("17:45"));
 // T.ex. "17:45" ger resultatet 17.
 
 // Arrayen av bilar följer denna struktur:
@@ -43,6 +43,6 @@ function totalTax(cars) {
   });
   return total;
 }
-console.log(totalTax(taxedCars));
+// console.log(totalTax(taxedCars));
 
 module.exports = totalTax;

@@ -13,8 +13,8 @@ function filterNames(names, letter) {
   return names.filter((str) => str.includes(letter));
 }
 
-console.log(filterNames(["John", "Mary", "Peter", "Jane"], "J")); // Returnerar ["John", "Jane"]
-console.log(filterNames(["John", "Mary", "Peter", "Jane"], "P")); // Returnerar ["Peter"]
-console.log(filterNames(["John", "Mary", "Peter", "Jane"], "X")); // Returnerar []
+// console.log(filterNames(["John", "Mary", "Peter", "Jane"], "J")); // Returnerar ["John", "Jane"]
+// console.log(filterNames(["John", "Mary", "Peter", "Jane"], "P")); // Returnerar ["Peter"]
+// console.log(filterNames(["John", "Mary", "Peter", "Jane"], "X")); // Returnerar []
 
 module.exports = filterNames;

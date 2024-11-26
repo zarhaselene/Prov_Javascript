@@ -13,7 +13,7 @@ function addDiscount(product, discount) {
   return { ...product, discount: discount };
 }
 
-console.log(addDiscount(product, 10));
+// console.log(addDiscount(product, 10));
 // Output: { name: "Laptop", price: 15000, brand: "TechBrand", discount: 10 }
 
 module.exports = addDiscount;

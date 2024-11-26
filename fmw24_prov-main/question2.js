@@ -26,8 +26,8 @@ function equalLetterPositions(str1, str2) {
   return equalityCounter;
 }
 
-console.log(equalLetterPositions("go", "DO")); // Returnerar 1 (o och O är på samma position i båda strängarna)
-console.log(equalLetterPositions("hello", "world")); // Returnerar 1 (l är på samma position i båda strängarna)
-console.log(equalLetterPositions("detsamma", "detta")); // Returnerar 4 (d, e, t, a är på samma position i båda strängarna)
+// console.log(equalLetterPositions("go", "DO")); // Returnerar 1 (o och O är på samma position i båda strängarna)
+// console.log(equalLetterPositions("hello", "world")); // Returnerar 1 (l är på samma position i båda strängarna)
+// console.log(equalLetterPositions("detsamma", "detta")); // Returnerar 4 (d, e, t, a är på samma position i båda strängarna)
 
 module.exports = equalLetterPositions;

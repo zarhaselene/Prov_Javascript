@@ -16,8 +16,7 @@ function getBookInfo(book) {
   return `Titel: ${Titel}, Författare: ${Författare}`;
 }
 
-console.log(getBookInfo(book));
+// console.log(getBookInfo(book));
 // Output: "Titel: To Kill a Mockingbird, Författare: Harper Lee"
 
 module.exports = getBookInfo;
-//
