@@ -11,10 +11,11 @@
 // Övriga tider är gratis.
 
 // Använd funktionen getHour för att plocka ut timmen ur ett klockslag.
-// T.ex. "17:45" ger resultatet 17.
 function getHour(time) {
   return parseInt(time.split(":")[0]);
 }
+console.log(getHour("17:45"));
+// T.ex. "17:45" ger resultatet 17.
 
 // Arrayen av bilar följer denna struktur:
 const taxedCars = [
@@ -27,6 +28,21 @@ const taxedCars = [
 
 function totalTax(cars) {
   // Din kod här
+  let total = 0;
+  cars.forEach((car) => {
+    const hour = getHour(car.time);
+    if (hour >= 6 && hour <= 6) {
+      total += 30;
+    } else if (hour >= 7 && hour <= 7) {
+      total += 45;
+    } else if (hour >= 8 && hour <= 8) {
+      total += 30;
+    } else if (hour >= 9 && hour <= 18) {
+      total += 20;
+    }
+  });
+  return total;
 }
+console.log(totalTax(taxedCars));
 
 module.exports = totalTax;
