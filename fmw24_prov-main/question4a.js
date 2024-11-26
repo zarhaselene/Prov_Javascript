@@ -8,11 +8,12 @@ const product = {
   brand: "TechBrand",
 };
 
-// console.log(addDiscount(product, 10));
-// Output: { name: "Laptop", price: 15000, brand: "TechBrand", discount: 10 }
-
 function addDiscount(product, discount) {
   // Din kod här
+  return { ...product, discount: discount };
 }
+
+console.log(addDiscount(product, 10));
+// Output: { name: "Laptop", price: 15000, brand: "TechBrand", discount: 10 }
 
 module.exports = addDiscount;
