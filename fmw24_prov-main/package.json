@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "question1.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "description": ""
 }
